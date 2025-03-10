@@ -2,10 +2,18 @@
 
 # dependencies
 node_modules/
-client/node_modules/
-server/node_modules
+build/
+dist/
+.env
+.DS_Store
+*.log
 /.pnp
-.pnp.js
+.pnp.*
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/versions
 
 # testing
 /coverage
